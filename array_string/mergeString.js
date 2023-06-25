@@ -7,15 +7,11 @@ pseudocode:
 */
 
 var mergeAlternately = function(word1, word2) {
-  
   let word = ''
-
   for (let i = 0; i < Math.max(word1.length, word2.length); i++){
     if( i < word1.length){ word += word1[i]};
     if( i < word2.length){ word += word2[i]};
   }
-
-  console.log(word)
   return word
 };
 
